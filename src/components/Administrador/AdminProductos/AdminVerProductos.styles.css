@@ -1,0 +1,23 @@
+.inputBuscarProductos {
+  float: right;
+  margin-bottom: 10px;
+}
+.tablaDivProductos {
+  width: 36%;
+}
+
+.divInicio {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.detalleFactura {
+  text-align: center;
+  border: 1px red solid;
+  position: fixed;
+  left: 20%;
+  top: 0;
+  width: 60%;
+  height: 60%;
+  padding: 40px;
+}
