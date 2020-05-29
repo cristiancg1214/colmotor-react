@@ -115,15 +115,10 @@ class AdminCrearProductos extends React.Component {
           <hr />
           <center>
             <Link onClick={this.handleSubmit} className="btn btn-primary">
-              Crear Producto
+              Crear Nuevo Producto
             </Link>
           </center>
         </form>
-        {this.state.estado == 1 ? (
-          <Redirect to="/adminMenuProductos" />
-        ) : (
-          console.log("Nada")
-        )}
       </div>
     );
   }
